@@ -27,6 +27,12 @@
 ;; Auto-close `end` blocs in ruby
 (use-package ruby-end)
 
+;; Project management
+(use-package projectile
+  :config
+  (projectile-mode)
+  )
+
 ;; Open .v files with Proof General's Coq mode
 (load "~/.emacs.d/lisp/PG/generic/proof-site")
 
