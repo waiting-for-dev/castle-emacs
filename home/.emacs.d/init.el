@@ -24,6 +24,9 @@
   (setq evil-want-abbrev-expand-on-insert-exit nil)
   )
 
+;; Auto-close `end` blocs in ruby
+(use-package ruby-end)
+
 ;; Open .v files with Proof General's Coq mode
 (load "~/.emacs.d/lisp/PG/generic/proof-site")
 
