@@ -32,6 +32,10 @@
   :config
   (projectile-mode)
   )
+(use-package projectile-rails
+  :config
+  (projectile-rails-global-mode)
+  )
 
 ;; Open .v files with Proof General's Coq mode
 (load "~/.emacs.d/lisp/PG/generic/proof-site")
