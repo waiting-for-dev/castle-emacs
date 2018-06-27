@@ -1,6 +1,6 @@
-;; Add melpa as repository
+gg;; ADDuuu MELPA as repository
 (require 'package)
-(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
+(add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/") ("melpa" . "http://melpa.org/packages/"))
 (package-initialize)
 
 ;; Auto-install `use-package`
@@ -24,6 +24,7 @@
 
 ;; Auto-completion
 (use-package company-mode
+  :ensure t
   :config
   (company-mode)
   :commands (global-company-mode)
