@@ -28,7 +28,9 @@
   (company-mode)
   :commands (global-company-mode)
   :init
-  (add-hook 'after-init-hook 'global-company-mode))
+  (add-hook 'after-init-hook 'global-company-mode)
+  (eval-after-load 'company
+    '(push 'company-robe company-backends)))
 
 ;; Auto-close `end` blocs in ruby
 (use-package ruby-end
