@@ -27,6 +27,12 @@
 ;; Auto-close `end` blocs in ruby
 (use-package ruby-end)
 
+;; Code navigation, documentation lookup and completion for Ruby
+(use-package robe
+  :commands (robe-mode)
+  :init
+  (add-hook 'ruby-mode-hook 'robe-mode))
+
 ;; Project management
 (use-package projectile
   :config
