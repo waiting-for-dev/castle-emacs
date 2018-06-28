@@ -1,4 +1,5 @@
 ;; EMACS CONFIG
+;; Launch terminal emulator
 (global-set-key (kbd "C-c C-SPC") (lambda()
 				    (interactive)
 				    (term "/bin/zsh")))
