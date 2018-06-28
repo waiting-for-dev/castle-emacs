@@ -1,3 +1,6 @@
+;; EMACS CONFIG
+(global-set-key (kbd "C-c C-SPC") 'eshell)
+;; PACKAGES
 ;; Add melpa as repository
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
