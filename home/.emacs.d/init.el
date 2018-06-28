@@ -1,5 +1,7 @@
 ;; EMACS CONFIG
-(global-set-key (kbd "C-c C-SPC") 'term)
+(global-set-key (kbd "C-c C-SPC") (lambda()
+				    (interactive)
+				    (term "/bin/zsh")))
 
 ;; PACKAGES
 ;; Add melpa as repository
