@@ -1,5 +1,6 @@
 ;; EMACS CONFIG
-(global-set-key (kbd "C-c C-SPC") 'eshell)
+(global-set-key (kbd "C-c C-SPC") 'term)
+
 ;; PACKAGES
 ;; Add melpa as repository
 (require 'package)
