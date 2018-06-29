@@ -4,6 +4,9 @@
 				    (interactive)
 				    (term "/bin/zsh")))
 
+;; When opening a file which is a symlink under VC, open the "real" file
+(setq vc-follow-symlinks t)
+
 ;; PACKAGES
 ;; Add melpa as repository
 (require 'package)
