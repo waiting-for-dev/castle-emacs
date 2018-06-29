@@ -2,7 +2,7 @@
 ;; Launch terminal emulator
 (global-set-key (kbd "C-c C-SPC") (lambda()
 				    (interactive)
-				    (term "/bin/zsh")))
+				    (term (getenv "SHELL"))))
 
 ;; When opening a file which is a symlink under VC, open the "real" file
 (setq vc-follow-symlinks t)
