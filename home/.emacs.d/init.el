@@ -10,6 +10,9 @@
 ;; Do not open `GNU Emacs` buffer on startup
 (setq inhibit-splash-screen t)
 
+;; Fullscreen startup - https://emacs.stackexchange.com/a/3017
+(add-to-list 'initial-frame-alist '(fullscreen . fullboth))
+
 ;; PACKAGES
 ;; Add melpa as repository
 (require 'package)
