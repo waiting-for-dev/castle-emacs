@@ -4,6 +4,9 @@
 				    (interactive)
 				    (term (getenv "SHELL"))))
 
+;; Return to previous buffer
+(global-set-key (kbd "C-c b") 'mode-line-other-buffer)
+
 ;; When opening a file which is a symlink under VC, open the "real" file
 (setq vc-follow-symlinks t)
 
