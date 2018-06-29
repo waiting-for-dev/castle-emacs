@@ -76,6 +76,17 @@
 (use-package alchemist
   :ensure t)
 
+;; Haskell mode
+(use-package haskell-mode
+  :ensure t)
+
+;; Haskell tools
+(use-package intero
+  :ensure t
+  :commands (intero-mode)
+  :init
+  (add-hook 'haskell-mode-hook 'intero-mode))
+  
 ;; Project management
 (use-package projectile
   :ensure t
