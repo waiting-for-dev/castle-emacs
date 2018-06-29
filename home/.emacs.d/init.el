@@ -68,6 +68,14 @@
   :init
   (add-hook 'ruby-mode-hook 'robe-mode))
 
+;; Elixir mode
+(use-package elixir-mode
+  :ensure t)
+
+;; Elixir tooling
+(use-package alchemist
+  :ensure t)
+
 ;; Project management
 (use-package projectile
   :ensure t
