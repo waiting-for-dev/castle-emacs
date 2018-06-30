@@ -86,6 +86,13 @@
   :commands (intero-mode)
   :init
   (add-hook 'haskell-mode-hook 'intero-mode))
+
+;; Coq tools
+(use-package company-coq
+  :ensure t
+  :commands (company-coq-mode)
+  :init
+  (add-hook 'coq-mode-hook #'company-coq-mode))
   
 ;; Project management
 (use-package projectile
