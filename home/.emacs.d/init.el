@@ -16,6 +16,9 @@
 ;; Fullscreen startup - https://emacs.stackexchange.com/a/3017
 (add-to-list 'initial-frame-alist '(fullscreen . fullboth))
 
+;; Assistance with files and buffers
+(ido-mode t)
+
 ;; Command to open init.el quickly
 (defun initel ()
   (interactive)
