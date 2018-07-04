@@ -19,6 +19,12 @@
 ;; Assistance with files and buffers
 (ido-mode t)
 
+;; Do not change `default directory` with current buffer
+(add-hook 'find-file-hook
+	  (lambda ()
+	    (setq default-directory command-line-default-directory)))
+
+
 ;; Command to open init.el quickly
 (defun initel ()
   (interactive)
