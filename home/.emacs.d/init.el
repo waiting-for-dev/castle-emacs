@@ -44,15 +44,6 @@
 (eval-when-compile
   (require 'use-package))
 
-;; Haskell tools
-(use-package intero
-  :ensure t
-  :commands (intero-mode)
-  :init
-  (add-hook 'haskell-mode-hook 'intero-mode))
-
-;; Coq tools
-
 ;; Syntax checking
 (use-package flycheck
   :ensure t
@@ -109,8 +100,27 @@
 
 ;; Haskell mode
 (use-package haskell-mode
-  :ensure t)
+  :ensure t
+  :config
+  (custom-set-variables '(haskell-stylish-on-save t)))
 
+;; Haskell tools
+(use-package intero
+  :ensure t
+  :commands (intero-mode)
+  :init
+  (add-hook 'haskell-mode-hook 'intero-mode))
+
+;; Haskell code formatter
+(use-package hindent
+  :ensure t
+  :commands (hindent-mode)
+  :config
+  (setq hindent-reformat-buffer-on-save t)
+  :init
+  (add-hook 'haskell-mode-hook #'hindent-mode))
+
+;; Coq tools
 (use-package company-coq
   :ensure t
   :commands (company-coq-mode)
