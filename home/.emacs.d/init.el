@@ -67,7 +67,8 @@
   (evil-mode 1)
   ;; Evil and Proof General compatibility: https://github.com/syl20bnr/spacemacs/issues/8853#issuecomment-302706114
   (setq evil-want-abbrev-expand-on-insert-exit nil)
-  )
+  ;; Disable in the term
+  (evil-set-initial-state 'term-mode 'emacs))
 
 ;; Auto-completion
 (use-package company-mode
