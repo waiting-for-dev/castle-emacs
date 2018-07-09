@@ -68,7 +68,10 @@
   ;; Evil and Proof General compatibility: https://github.com/syl20bnr/spacemacs/issues/8853#issuecomment-302706114
   (setq evil-want-abbrev-expand-on-insert-exit nil)
   ;; Disable in the term
-  (evil-set-initial-state 'term-mode 'emacs))
+  (evil-set-initial-state 'term-mode 'emacs)
+  ;; Unbind `M-.` key, used in emacs to jump to definition
+  (eval-after-load "evil-maps"
+    (define-key evil-normal-state-map "\M-." nil)))
 
 ;; Auto-completion
 (use-package company-mode
