@@ -19,6 +19,9 @@
 ;; Assistance with files and buffers
 (ido-mode t)
 
+;; Default browser
+(setq browse-url-browser-function 'browse-url-chromium)
+
 ;; Do not change `default directory` with current buffer
 ;; (add-hook 'find-file-hook
 ;; 	  (lambda ()
