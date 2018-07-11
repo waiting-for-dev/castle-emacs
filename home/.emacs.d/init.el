@@ -19,6 +19,9 @@
 ;; Assistance with files and buffers
 (ido-mode t)
 
+;; Highlight matching parenthesis
+(show-paren-mode t)
+
 ;; Default browser
 (setq browse-url-browser-function 'browse-url-chromium)
 
