@@ -1,8 +1,14 @@
 ;; EMACS CONFIG
-;; Launch terminal emulator
-(global-set-key (kbd "C-c C-SPC") (lambda()
-				    (interactive)
-				    (term (getenv "SHELL"))))
+;; Launch terminal emulator --
+;; https://emacs.stackexchange.com/questions/42513/launch-term-in-command-line-default-directory
+(global-set-key (kbd "C-c C-SPC")
+		(lambda (local)
+		  (interactive "P")
+		  (message "local: %S" local)
+		  (let ((default-directory (if local
+					       default-directory
+					     command-line-default-directory)))
+		    (term (getenv "SHELL")))))
 
 ;; Return to previous buffer
 (global-set-key (kbd "C-c b") 'mode-line-other-buffer)
