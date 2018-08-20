@@ -41,6 +41,14 @@
   (interactive)
   (find-file "~/.emacs.d/init.el"))
 
+;;; Do not clutter with backup/autosave files
+;;; https://stackoverflow.com/a/2020954/877028
+(defvar backup-dir (expand-file-name "~/.emacs.d/backup/"))
+(defvar autosave-dir (expand-file-name "~/.emacs.d/autosave/"))
+(setq backup-directory-alist (list (cons ".*" backup-dir)))
+(setq auto-save-list-file-prefix autosave-dir)
+(setq auto-save-file-name-transforms `((".*" ,autosave-dir t)))
+
 ;; PACKAGES
 ;; Add melpa as repository
 (require 'package)
