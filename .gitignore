@@ -6,4 +6,5 @@
 *.elc
 auto-save-list
 tramp
-.\#*
+home/.emacs.d/elpa/*
+projectile-bookmarks.eld
