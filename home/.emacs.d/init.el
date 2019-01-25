@@ -22,8 +22,9 @@
 ;; Fullscreen startup - https://emacs.stackexchange.com/a/3017
 (add-to-list 'initial-frame-alist '(fullscreen . fullboth))
 
-;; Assistance with files and buffers
-(ido-mode t)
+;; Ido mode
+(ido-mode 1)
+(setq ido-enable-flex-matching t)
 
 ;; Highlight matching parenthesis
 (show-paren-mode t)
