@@ -50,6 +50,9 @@
 (setq auto-save-list-file-prefix autosave-dir)
 (setq auto-save-file-name-transforms `((".*" ,autosave-dir t)))
 
+;; Do not add new line at the end of the file
+(setq mode-require-final-newline nil)
+
 ;; PACKAGES
 ;; Add melpa as repository
 (require 'package)

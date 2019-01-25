@@ -1,0 +1,372 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/marc/projects/clients_webs/llorens/apps/main/web/templates/contact/" . "new/")
+ ("/home/marc/projects/clients_webs/llorens/assets/" . "css/")
+ ("/home/marc/projects/clients_webs/llorens/spec/support/" . "db/")
+ ("/home/marc/projects/forks/rom-sql/spec/unit/" . "relation/")
+ ("/home/marc/" . "projects/")
+ ("/home/marc/projects/clients_webs/llorens/apps/main/web/templates/static/" . "home/")
+ ("/home/marc/projects/clients_webs/llorens/spec/unit/rom/plugins/" . "relation/")
+ ("/home/marc/projects/clients_webs/llorens/spec/unit/rom/" . "plugins/")
+ ("/home/marc/projects/clients_webs/llorens/lib/rom/plugins/" . "relation/")
+ ("/home/marc/projects/clients_webs/llorens/lib/rom/" . "plugins/")
+ ("/home/marc/projects/clients_webs/llorens/spec/unit/main/views/client/registrations/" . "parts/")
+ ("/home/marc/projects/clients_webs/llorens/spec/unit/main/views/client/" . "registrations/")
+ ("/home/marc/projects/clients_webs/llorens/spec/unit/main/views/" . "parts/")
+ ("/home/marc/projects/clients_webs/llorens/apps/main/web/routes/" . "clients/")
+ ("/home/marc/projects/forks/rom-sql/lib/rom/sql/" . "spec/")
+ ("/home/marc/projects/forks/rom-sql/spec/integration/schema/" . "inferrer/")
+ ("/home/marc/projects/clients_webs/llorens/system/" . "boot/")
+ ("/home/marc/projects/clients_webs/llorens/apps/main/web/templates/client/" . "registration/")
+ ("/home/marc/.homesick/repos/castle-mr/home/projects/forks/rom-sql/lib/rom/sql/" . "relation/")
+ ("/home/marc/.homesick/repos/castle-mr/home/projects/forks/rom/core/lib/rom/plugins/" . "schema/")
+ ("/home/marc/.homesick/repos/castle-mr/home/projects/forks/rom/core/lib/rom/" . "schema/")
+ ("/home/marc/.homesick/repos/castle-mr/home/projects/forks/rom/changeset/" . "spec/")
+ ("/home/marc/.homesick/repos/castle-mr/home/projects/forks/rom/repository/" . "spec/")
+ ("/home/marc/.homesick/repos/castle-mr/home/projects/forks/rom/core/spec/unit/rom/plugins/" . "schema/")
+ ("/home/marc/projects/forks/rom/changeset/" . "spec/")
+ ("/home/marc/.homesick/repos/castle-mr/home/projects/clients_webs/llorens/system/" . "boot/")
+ ("/home/marc/.homesick/repos/castle-mr/home/projects/clients_webs/llorens/" . "system/")
+ ("/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/main/views/client/registration/" . "parts/")
+ ("/home/marc/projects/clients_webs/llorens/spec/unit/main/" . "views/")
+ ("/home/marc/.homesick/repos/castle-mr/home/projects/" . "forks/")
+ ("/home/marc/.homesick/repos/castle-mr/home/projects/forks/rom-sql/spec/fixtures/" . "migrations/")
+ ("/home/marc/.homesick/repos/castle-mr/home/projects/forks/rom-sql/spec/unit/" . "relation/")
+ ("/home/marc/projects/forks/" . "rom/")
+ ("/home/marc/projects/forks/rom-sql/spec/integration/" . "auto_migrations/")
+ ("/home/marc/.homesick/repos/castle-mr/home/projects/forks/rom-sql/spec/integration/" . "associations/")
+ ("/home/marc/.homesick/repos/castle-mr/home/projects/forks/rom-sql/spec/" . "unit/")
+ ("/home/marc/.homesick/repos/castle-mr/home/projects/forks/" . "rom/")
+ ("/home/marc/.homesick/repos/castle-mr/home/projects/forks/rom/" . "core/")
+ ("/home/marc/.homesick/repos/castle-mr/home/projects/forks/rom/core/spec/unit/rom/" . "schema/")
+ ("/home/marc/.homesick/repos/castle-mr/home/projects/forks/rom/core/spec/unit/" . "rom/")
+ ("/home/marc/.homesick/repos/castle-mr/home/projects/forks/rom/core/spec/" . "support/")
+ ("/home/marc/.homesick/repos/castle-mr/home/projects/forks/rom/core/lib/" . "rom/")
+ ("/home/marc/.homesick/repos/castle-mr/home/projects/forks/rom/core/" . "lib/")
+ ("/home/marc/.homesick/repos/castle-mr/home/projects/forks/rom-sql/lib/rom/" . "sql/")
+ ("/home/marc/.homesick/repos/castle-mr/home/projects/forks/rom-sql/lib/" . "rom/")
+ ("/home/marc/.homesick/repos/castle-mr/home/projects/forks/rom-sql/" . "spec/")
+ ("/home/marc/projects/forks/rom-sql/spec/" . "shared/")
+ ("/home/marc/projects/forks/rom-sql/lib/rom/" . "sql/")
+ ("/home/marc/projects/forks/rom-sql/lib/" . "rom/")
+ ("/home/marc/projects/forks/rom-sql/" . "spec/")
+ ("/home/marc/projects/forks/rom/core/lib/rom/plugins/" . "command/")
+ ("/home/marc/projects/forks/dry-view/lib/dry/" . "view/")
+ ("/home/marc/projects/forks/dry-view/lib/" . "dry/")
+ ("/home/marc/projects/forks/dry-view/spec/" . "unit/")
+ ("/home/marc/projects/forks/dry-view/" . "lib/")
+ ("/home/marc/projects/forks/rom/core/lib/rom/" . "schema/")
+ ("/home/marc/projects/forks/rom/core/lib/" . "rom/")
+ ("/home/marc/projects/forks/rom/core/spec/unit/rom/" . "relation/")
+ ("/home/marc/projects/forks/rom/core/spec/unit/" . "rom/")
+ ("/home/marc/projects/forks/rom/core/spec/" . "unit/")
+ ("/home/marc/projects/forks/rom/core/" . "lib/")
+ ("/home/marc/projects/forks/rom/" . "core/")
+ ("/home/marc/projects/clients_webs/llorens/spec/features/main/" . "registrations/")
+ ("/home/marc/projects/forks/rom-factory/spec/integration/" . "rom/")
+ ("/home/marc/projects/forks/rom-factory/spec/" . "integration/")
+ ("/home/marc/projects/forks/rom-factory/" . "spec/")
+ ("/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/main/views/client/" . "registration/")
+ ("/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/main/views/" . "contact/")
+ ("/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/main/" . "view/")
+ ("/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/" . "main/")
+ ("/home/marc/projects/clients_webs/llorens/apps/main/lib/" . "llorens/")
+ ("/home/marc/projects/" . "forks/")
+ ("/home/marc/projects/clients_webs/llorens/lib/persistence/" . "relations/")
+ ("/home/marc/projects/clients_webs/llorens/spec/unit/core/" . "view/")
+ ("/home/marc/projects/clients_webs/llorens/spec/unit/" . "main/")
+ ("/home/marc/projects/clients_webs/llorens/spec/features/" . "main/")
+ ("/home/marc/projects/clients_webs/llorens/lib/llorens/" . "view/")
+ ("/home/marc/projects/clients_webs/llorens/lib/" . "llorens/")
+ ("/home/marc/projects/clients_webs/web_llorens/app/views/online/" . "expedientes/")
+ ("/home/marc/projects/clients_webs/web_llorens/app/views/" . "online/")
+ ("/home/marc/projects/clients_webs/llorens/apps/main/system/llorens/" . "main/")
+ ("/home/marc/projects/clients_webs/llorens/apps/main/system/" . "llorens/")
+ ("/home/marc/projects/clients_webs/llorens/apps/main/web/templates/" . "contact/")
+ ("/home/marc/projects/clients_webs/llorens/apps/main/web/" . "templates/")
+ ("/home/marc/projects/clients_webs/llorens/apps/main/" . "web/")
+ ("/home/marc/projects/clients_webs/llorens/apps/" . "main/")
+ ("/home/marc/projects/clients_webs/llorens/" . "lib/")
+ ("/home/marc/projects/clients_webs/llorens/spec/" . "unit/")
+ ("/home/marc/projects/clients_webs/web_llorens/app/models/" . "expedientes/")
+ ("/home/marc/projects/clients_webs/web_llorens/app/controllers/" . "online/")
+ ("/home/marc/projects/clients_webs/web_llorens/app/" . "datatables/")
+ ("/home/marc/projects/clients_webs/web_llorens/" . "app/")
+ ("/home/marc/projects/clients_webs/" . "web_llorens/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/main/"
+ "/home/marc/projects/clients_webs/llorens/"
+ "/home/marc/projects/clients_webs/llorens/lib/llorens/view/"
+ "/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/main/view/"
+ "/home/marc/projects/clients_webs/llorens/apps/main/web/templates/contact/new/"
+ "/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/main/views/contact/"
+ "/home/marc/projects/clients_webs/llorens/apps/main/web/templates/client/registration/"
+ "/home/marc/projects/clients_webs/llorens/assets/css/"
+ "/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/main/views/client/registration/"
+ "/home/marc/projects/clients_webs/llorens/spec/unit/main/views/parts/"
+ "/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/main/views/"
+ "/home/marc/projects/clients_webs/llorens/apps/main/web/templates/client/"
+ "/home/marc/projects/clients_webs/llorens/apps/main/web/routes/"
+ "/home/marc/projects/forks/dry-view-class/lib/dry_view_class/view/"
+ "/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/main/views/client/registration/parts/"
+ "/home/marc/projects/forks/dry-view-class/lib/dry_view_class/"
+ "/home/marc/projects/forks/dry-view-class/"
+ "/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/main/views/client/"
+ "/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/main/views/session/"
+ "/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/main/views/static/"
+ "/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/main/views/parts/"
+ "/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/main/emails/views/contact/"
+ "/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/main/emails/"
+ "/home/marc/projects/clients_webs/llorens/lib/llorens/"
+ "/home/marc/projects/clients_webs/llorens/spec/unit/main/view/"
+ "/home/marc/projects/clients_webs/llorens/spec/unit/core/view/"
+ "/home/marc/projects/clients_webs/llorens/spec/"
+ "/home/marc/.homesick/repos/castle-mr/home/projects/clients_webs/llorens/lib/llorens/view/"
+ "/home/marc/.homesick/repos/castle-mr/home/projects/clients_webs/llorens/lib/llorens/"
+ "/home/marc/.homesick/repos/castle-mr/home/projects/clients_webs/llorens/apps/main/lib/llorens/main/views/client/"
+ "/home/marc/.homesick/repos/castle-mr/home/projects/clients_webs/llorens/apps/main/lib/llorens/main/"
+ "/home/marc/.homesick/repos/castle-mr/home/projects/clients_webs/llorens/apps/main/lib/llorens/main/emails/"
+ "/home/marc/.homesick/repos/castle-mr/home/projects/clients_webs/llorens/apps/main/lib/llorens/main/view/"
+ "/home/marc/projects/clients_webs/llorens/apps/main/web/routes/clients/"
+ "/home/marc/projects/clients_webs/llorens/lib/persistence/relations/"
+ "/home/marc/projects/clients_webs/llorens/apps/main/web/templates/layouts/"
+ "/home/marc/projects/clients_webs/llorens/assets/js/"
+ "/home/marc/projects/clients_webs/web_llorens/app/datatables/"
+ "/home/marc/projects/clients_webs/llorens/lib/rom/plugins/relation/"
+ "/home/marc/projects/clients_webs/llorens/spec/unit/rom/plugins/relation/"
+ "/home/marc/projects/clients_webs/llorens/lib/"
+ "/home/marc/projects/clients_webs/llorens/spec/features/main/registrations/"
+ "/home/marc/projects/clients_webs/llorens/system/boot/"
+ "/home/marc/projects/clients_webs/llorens/lib/llorens/repositories/"
+ "/home/marc/projects/clients_webs/llorens/spec/unit/core/repositories/"
+ "/home/marc/projects/clients_webs/web_llorens/app/views/online/expedientes/"
+ "/home/marc/projects/clients_webs/llorens/apps/main/system/llorens/main/"
+ "/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/"
+ "/home/marc/projects/clients_webs/web_llorens/app/controllers/online/"
+ "/home/marc/projects/clients_webs/llorens/apps/main/web/templates/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "view.rb"
+ "Dockerfile"
+ "context.rb"
+ "_form.html.erb"
+ "new.rb"
+ "custom.css.scss"
+ "index.rb"
+ "_table.html.erb"
+ "page_part_spec.rb"
+ "_header.html.erb"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/" (23580 44194 961009 420000) "../" "./" "marc/")
+
+ ("/home/marc/" (23627 13315 241943 863000) ".viminfo" ".alpine-smime/" ".pine-debug1" ".esd_auth" ".gitconfig" "Downloads/" ".histfile" "dead.letter" "Documents/" ".vim/" ".pinerc" "Templates/" ".dmrc" ".signature_info_lm" ".addressbook" ".recently-used" ".local/" ".vimrc" "passwords.kdbx" "nix/" "projects/" ".zcompdump" "custom.zsh" "Public/" "../" ".zshrc.pre-oh-my-zsh" ".pki/" ".ssh/" ".gitignore" ".pine-passfile" ".dbus/" ".xsession-errors.old" ".xsession-errors" ".cache/" ".compose-cache/" ".mrconfig" "wiki/" ".pine-debug2" "Desktop/" ".bash_history" ".emacs.d/" ".signature_marc_lm" "configuration.nix" ".zshrc" ".signature" "./" "Pictures/" ".pine-debug3" ".ICEauthority" ".pine-debug4" ".nix-defexpr/" ".oh-my-zsh/" ".mozilla/" ".mono/" ".zcompdump-bolivia-5.6.2" ".pine-interrupted-mail" ".psql_history" "Music/" ".lesshst" ".zsh_history" "mail/" ".homesick/" ".Xauthority" ".config/" ".nix-profile" "Videos/")
+
+ ("/home/marc/projects/" (23585 5717 898711 31000) "vim/" "gems/" "../" "sass-css/" "php/" ".mrconfig" "clients_webs/" "unix/" "./" "recipes/" "haskell/" "forks/" "personal_webs/")
+
+ ("/home/marc/projects/clients_webs/llorens/apps/main/web/templates/layouts/" (23627 20057 791800 612000) "application.html.erb" "_ie_pie.html.erb" "_assets.html.erb" "../" "_cookies.html.erb" "_nav.html.erb" "./" "_flash.html.erb" "_footer.html.erb")
+
+ ("/home/marc/.homesick/repos/castle-mr/home/projects/clients_webs/llorens/lib/llorens/view/" (23627 20057 792800 616000) "../" "./" "context.rb")
+
+ ("/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/main/views/" (23627 20057 791800 612000) "client/" "../" "session/" "theme.rb" "./" "parts/" "static/" "contact/")
+
+ ("/home/marc/projects/clients_webs/llorens/apps/main/web/templates/contact/new/" (23627 20057 791800 612000) "../" "./" "_form.html.erb")
+
+ ("/home/marc/projects/clients_webs/llorens/lib/llorens/view/" (23627 20057 792800 616000) "../" "./" "context.rb")
+
+ ("/home/marc/projects/clients_webs/llorens/apps/main/web/templates/client/" (23627 18733 855386 550000) "registration/" "../" "_header.html.erb" "./" "dashboard.html.erb")
+
+ ("/home/marc/projects/clients_webs/llorens/" (23627 18658 620118 31000) "system/" "docker-compose.yml" ".git/" "bin/" ".rspec" "Gemfile" "tmp/" "../" "Gemfile.lock" ".env" ".gitignore" "README.md" "public/" "config.ru" "Dockerfile" ".dockerignore" "Rakefile" "stuff/" ".ruby-version" "./" "heroku.yml" ".yardopts" "log/" "lib/" "spec/" "assets/" ".env.test" "docker_start.sh" "db/" ".env.example" "apps/")
+
+ ("/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/main/views/client/registration/" (23627 13257 396606 914000) "index_csv.rb" "../" "index.rb" "./" "parts/")
+
+ ("/home/marc/projects/clients_webs/llorens/assets/css/" (23627 10659 492789 990000) "frontend_base.css.scss" "ie_debug.css.scss" "_font-awesome.css.scss" "../" "./" "custom.css.scss" "lightbox/" "theme/" "application.css" "development.css.scss")
+
+ ("/home/marc/projects/clients_webs/llorens/apps/main/web/templates/client/registration/" (23627 18733 856386 553000) "index.csv.rcsv" "index.html.erb" "../" "./" "_table.html.erb")
+
+ ("/home/marc/projects/clients_webs/llorens/apps/main/web/templates/contact/" (23627 18733 856386 553000) "new.html.erb" "../" "./" "new/")
+
+ ("/home/marc/.homesick/repos/castle-mr/home/projects/clients_webs/llorens/apps/main/lib/llorens/main/view/" (23627 9260 890758 791000) "../" "./" "context.rb")
+
+ ("/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/main/view/" (23627 9260 890758 791000) "../" "./" "context.rb")
+
+ ("/home/marc/.homesick/repos/castle-mr/home/projects/clients_webs/llorens/apps/main/lib/llorens/main/" (23625 55345 54531 31000) "view/" "../" "emails/" "csv_view.rb" "view.rb" "./" "views/")
+
+ ("/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/main/" (23625 55345 54531 31000) "view/" "../" "emails/" "csv_view.rb" "view.rb" "./" "views/")
+
+ ("/home/marc/projects/forks/dry-view-class/lib/" (23625 36929 184822 700000) "types.rb" "dry_view_class/" "../" "./" "persistence/")
+
+ ("/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/main/views/client/registration/parts/" (23625 53870 55774 5000) "../" "./" "registration_part.rb" "pager_part.rb")
+
+ ("/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/" (23582 22085 442225 895000) "../" "./" "main/")
+
+ ("/home/marc/.homesick/repos/castle-mr/home/projects/clients_webs/llorens/apps/main/lib/llorens/main/emails/" (23625 38991 186221 665000) "../" "view.rb" "./" "views/")
+
+ ("/home/marc/.homesick/repos/castle-mr/home/projects/clients_webs/llorens/apps/main/lib/llorens/main/views/client/" (23625 38582 921991 404000) "registration/" "../" "./" "dashboard.rb")
+
+ ("/home/marc/.homesick/repos/castle-mr/home/projects/clients_webs/llorens/lib/llorens/" (23625 37560 437313 126000) "repositories/" "transactions/" "view/" "../" "validation.rb" "policies/" "operation.rb" "queue.rb" "./" "email.rb" "operations/" "transaction.rb" "steps.rb" "repository.rb")
+
+ ("/home/marc/projects/clients_webs/llorens/lib/llorens/" (23625 37560 437313 126000) "repositories/" "transactions/" "view/" "../" "validation.rb" "policies/" "operation.rb" "queue.rb" "./" "email.rb" "operations/" "transaction.rb" "steps.rb" "repository.rb")
+
+ ("/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/main/emails/" (23625 38991 186221 665000) "../" "view.rb" "./" "views/")
+
+ ("/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/main/emails/views/contact/" (23625 38820 240631 537000) "request.rb" "../" "./")
+
+ ("/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/main/views/parts/" (23625 35606 61025 730000) "../" "current_user_part.rb" "./" "pager_part.rb")
+
+ ("/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/main/views/static/" (23625 38663 724828 856000) "privacy_policy.rb" "home.rb" "../" "download.rb" "cookies_policy.rb" "./" "terms_and_conditions.rb")
+
+ ("/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/main/views/session/" (23625 38620 799050 871000) "../" "./" "new.rb")
+
+ ("/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/main/views/contact/" (23625 38611 546279 89000) "../" "./" "new.rb")
+
+ ("/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/main/views/client/" (23625 38582 921991 404000) "registration/" "../" "./" "dashboard.rb")
+
+ ("/home/marc/projects/forks/dry-view-class/spec/" (23625 37300 579304 156000) "db_spec_helper.rb" "spec_helper.rb" "../" "examples.txt" "web_spec_helper.rb" "factories/" "./" "support/")
+
+ ("/home/marc/projects/forks/dry-view-class/lib/dry_view_class/view/" (23625 37268 119785 903000) "../" "./" "context.rb")
+
+ ("/home/marc/projects/forks/dry-view-class/lib/dry_view_class/" (23625 37258 983526 681000) "view/" "../" "operation.rb" "view.rb" "./" "repository.rb")
+
+ ("/home/marc/projects/forks/dry-view-class/" (23625 37118 92958 708000) "system/" ".git/" "bin/" ".rspec" "Gemfile" "../" "Gemfile.lock" ".env" ".gitignore" "README.md" "config.ru" "Rakefile" "./" "log/" "lib/" "spec/" ".env.test" "db/" "apps/")
+
+ ("/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/main/emails/view/" (23625 28153 638915 758000) "../" "./")
+
+ ("/home/marc/projects/clients_webs/web_llorens/app/views/online/expedientes/" (23582 22494 156955 615000) "new.html.erb" "_table_index.html.erb" "show.html.erb" "index.html.erb" "edit.html.erb" "../" "show.pdf.prawn" "./" "_form.html.erb")
+
+ ("/home/marc/projects/clients_webs/llorens/spec/unit/main/view/" (23624 44388 894998 599000) "../" "./" "context_spec.rb")
+
+ ("/home/marc/projects/clients_webs/llorens/assets/js/" (23624 37825 143346 520000) "cookies.js" "../" "development/" "clock/" "./" "application.js" "lightbox/" "theme/" "ready.js.coffee" "functions/")
+
+ ("/home/marc/projects/clients_webs/llorens/apps/main/web/routes/clients/" (23624 36629 89052 495000) "../" "./" "registrations.rb")
+
+ ("/home/marc/projects/clients_webs/llorens/assets/" (23582 22085 484227 237000) "img/" "../" "fonts/" "js/" "./" "css/" "docs/")
+
+ ("/home/marc/projects/clients_webs/llorens/lib/rom/plugins/relation/" (23624 11599 776570 62000) "smart_attribute_selector.rb" "../" "sort.rb" "./" "multi_text_search.rb" "filter.rb")
+
+ ("/home/marc/projects/clients_webs/llorens/lib/persistence/relations/" (23624 9988 363725 154000) "users.rb" "../" "clients.rb" ".keep" "./" "organizations.rb" "registrations.rb")
+
+ ("/home/marc/projects/clients_webs/llorens/lib/" (23624 8210 228234 227000) "types.rb" "llorens/" "../" "./" "rom/" "persistence/")
+
+ ("/home/marc/projects/clients_webs/llorens/spec/unit/rom/plugins/relation/" (23624 8668 922996 789000) "sort_spec.rb" "../" "smart_attribute_selector_spec.rb" "./" "multi_text_search_spec.rb" "filter_spec.rb")
+
+ ("/home/marc/projects/clients_webs/llorens/spec/features/main/registrations/" (23624 2818 539702 784000) "../" "./" "index_spec.rb")
+
+ ("/home/marc/projects/clients_webs/llorens/apps/main/web/routes/" (23624 625 426600 41000) "../" "session.rb" "clients.rb" "root.rb" "./" "clients/" "contact.rb")
+
+ ("/home/marc/projects/clients_webs/llorens/spec/unit/core/view/" (23623 24466 312356 205000) "../" "./" "context_spec.rb")
+
+ ("/home/marc/projects/clients_webs/llorens/spec/unit/core/repositories/" (23623 17569 141353 412000) "registration_repo_spec.rb" "../" "./" "user_repo_spec.rb")
+
+ ("/home/marc/projects/clients_webs/llorens/lib/llorens/repositories/" (23623 19143 154461 698000) "client_repo.rb" "user_repo.rb" "../" "./" "registration_repo.rb" "organization_repo.rb")
+
+ ("/home/marc/projects/clients_webs/llorens/system/boot/" (23623 17429 693432 99000) "background_job.rb" "../" "settings.rb" "persistence.rb" "./" "mail.rb" "monitor.rb")
+
+ ("/home/marc/projects/clients_webs/web_llorens/app/views/online/" (23582 22494 157955 569000) "documentos/" "static_pages/" "justificantes/" "../" "expedientes/" "stock_vehicles/" "./" "mandatos/" "informes/" "clientes/" "drivers/")
+
+ ("/home/marc/projects/clients_webs/web_llorens/app/views/" (23582 22494 158955 524000) "incidencias_mailer/" "online/" "web_pages/" "../" "devise/" "api/" "contact_mailer/" "api_mailer/" "layouts/" "./" "weekend_mailer/" "shared/" "rails_admin/")
+
+ ("/home/marc/projects/clients_webs/web_llorens/app/" (23582 22494 154955 705000) "helpers/" "datatables/" "../" "mailers/" "controllers/" "./" "validators/" "views/" "assets/" "models/")
+
+ ("/home/marc/projects/clients_webs/" (23608 58792 464297 931000) "paradores/" "bimanan/" "turismoirresponsable/" "bloi/" "AutoescuelaClot/" "llorens/" "thc/" "exploramas/" "eventbox/" "ecard/" "../" "hundyx/" "dk/" "promociones-jl/" "hastinik/" "Dresden/" "nagore/" "web_llorens/" "ragas-warecloud/" "afm/" "casadetepa/" "ragas_migration/" "deportes/" "shoplogue/" "altaveu/" "nuevomadrid/" "pic/" "./" "omplus/" "ragas/" "fxmac/" "nbm/" "hipstel/" "Alternologik/" "jjlimo/" "esaving/" "onlinechampion/" "amac/" "consolbancells/" "blackpoint/" "ingedeck/" "printit/")
+
+ ("/home/marc/projects/clients_webs/llorens/apps/main/system/llorens/main/" (23621 53365 684465 154000) "web.rb" "../" "container.rb" "import.rb" "./")
+
+ ("/home/marc/projects/clients_webs/llorens/spec/unit/main/views/parts/" (23614 1384 409007 915000) "../" "page_part_spec.rb" "./")
+
+ ("/home/marc/projects/clients_webs/llorens/spec/unit/main/views/" (23612 53685 988899 644000) "../" "./" "parts/")
+
+ ("/home/marc/projects/clients_webs/llorens/spec/unit/main/" (23602 62159 137629 667000) "view/" "../" "./" "views/")
+
+ ("/home/marc/projects/clients_webs/llorens/system/" (23612 52509 117696 650000) "llorens/" "../" "boot.rb" "./" "boot/")
+
+ ("/home/marc/projects/clients_webs/llorens/apps/main/system/llorens/" (23582 22085 445225 991000) "../" "./" "main/")
+
+ ("/home/marc/projects/clients_webs/llorens/lib/persistence/" (23594 16093 416087 836000) "commands/" "../" "./" "relations.rb" "relations/")
+
+ ("/home/marc/projects/clients_webs/llorens/spec/unit/core/" (23603 548 978976 774000) "repositories/" "view/" "../" "policies/" "./" "operations/" "email_spec.rb")
+
+ ("/home/marc/projects/clients_webs/llorens/spec/unit/" (23603 15360 831380 680000) "core/" "../" "./" "main/" "rom/")
+
+ ("/home/marc/projects/clients_webs/llorens/lib/llorens/operations/" (23614 2552 679400 269000) "../" "authenticate.rb" "send_contact_confirmation_email.rb" "validate_contact.rb" "send_contact_request_email.rb" "validate_authentication.rb" "./")
+
+ ("/home/marc/projects/clients_webs/web_llorens/app/controllers/" (23582 22494 152955 796000) "application_controller.rb" "online/" "../" "online_controller.rb" "api/" "./" "web_pages_controller.rb")
+
+ ("/home/marc/projects/clients_webs/web_llorens/" (23590 6490 278300 551000) "doc/" "docker-compose.yml" "Guardfile" "custom_plan.rb" ".git/" "config/" ".rspec" "Gemfile" "app/" "zeus.json" "tmp/" "../" "Capfile" "Gemfile.lock" ".gitignore" "devise_tests.rb" "README.md" "public/" "config.ru" "Dockerfile" "mandato1.pdf" "Rakefile" "./" "features/" "log/" "lib/" "spec/" "vendor/" "script/" "db/")
+
+ ("/home/marc/projects/clients_webs/llorens/apps/main/web/templates/" (23582 22085 447226 55000) "client/" "../" "session/" "layouts/" "./" "static/" "contact/")
+
+ ("/home/marc/projects/clients_webs/llorens/apps/main/web/" (23620 37202 474356 584000) "../" "email_templates/" "./" "templates/" "routes/")
+
+ ("/home/marc/projects/clients_webs/llorens/apps/main/system/" (23582 22085 444225 959000) "llorens/" "../" "boot.rb" "./")
+
+ ("/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/main/csv/views/client/registration/" (23620 36151 629514 476000) "../" "index.rb" "./")
+
+ ("/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/main/csv/" (23620 36030 897898 596000) "view/" "../" "./" "views/" "registrations.rb")
+
+ ("/home/marc/projects/clients_webs/llorens/apps/main/lib/llorens/main/csv/view/" (23620 36022 669856 624000) "../" "controller.rb" "./")
+
+ ("/home/marc/projects/clients_webs/llorens/apps/main/lib/" (23582 22085 442225 895000) "llorens/" "../" "./")
+
+ ("/home/marc/projects/forks/rom/core/spec/unit/rom/relation/" (23618 53758 465904 881000) "command_spec.rb" "attribute_reader_spec.rb" "foreign_key_spec.rb" "call_spec.rb" "wrap_spec.rb" "loaded_spec.rb" "wrap/" "struct_namespace_spec.rb" "combined/" "../" "combine_with_spec.rb" "schema_spec.rb" "combine_spec.rb" "lazy_spec.rb" "to_ast_spec.rb" "name_spec.rb" "output_schema_spec.rb" "./" "preload_assoc_spec.rb" "map_with_spec.rb" "eager_load_spec.rb" "as_spec.rb" "composite_spec.rb" "new_spec.rb" "inspect_spec.rb" "map_to_spec.rb" "class_interface/" "curried_spec.rb")
+
+ ("/home/marc/projects/forks/rom/core/lib/rom/schema/" (23618 53678 141064 454000) "../" "inferrer.rb" "./" "dsl.rb" "associations_dsl.rb")
+
+ ("/home/marc/projects/forks/rom-sql/lib/rom/sql/" (23620 10065 595173 771000) "rake_task.rb" "commands/" "type_extensions.rb" "type_dsl.rb" "types.rb" "associations/" "mapper_compiler.rb" "plugin/" "../" "wrap.rb" "join_dsl.rb" "migration.rb" "index.rb" "relation.rb" "function.rb" "associations.rb" "schema.rb" "extensions.rb" "attribute.rb" "error.rb" "version.rb" "./" "projection_dsl.rb" "migration/" "schema/" "spec/" "dsl.rb" "errors.rb" "foreign_key.rb" "restriction_dsl.rb" "relation/" "transaction.rb" "type_serializer.rb" "order_dsl.rb" "commands.rb" "extensions/" "group_dsl.rb" "gateway.rb" "tasks/" "plugins.rb")
+
+ ("/home/marc/projects/clients_webs/llorens/lib/rom/" (23620 13343 518074 432000) "fetch_attribute_by_alias.rb" "../" "pager_range.rb" "plugins/" "./" "fix_alias_sql_expression.rb" "maybe_struct_compiler.rb")
+
+ ("/home/marc/projects/clients_webs/llorens/spec/" (23612 20571 882933 999000) "db_spec_helper.rb" "spec_helper.rb" "../" "examples.txt" "web_spec_helper.rb" "./" "support/" "features/" "unit/" "shared/")
+
+ ("/home/marc/projects/clients_webs/llorens/spec/features/main/" (23603 17294 351250 464000) "contact_spec.rb" "../" "registrations/" "privacy_policy_spec.rb" "term_and_conditions_spec.rb" "sign_out_spec.rb" "download_spec.rb" "cookies_policy_spec.rb" "dashboard_spec.rb" "./" "home_spec.rb" "sign_in_spec.rb")
+
+ ("/home/marc/projects/clients_webs/web_llorens/app/datatables/" (23582 22494 153955 751000) "informes_datatable.rb" "documentos_datatable.rb" "../" "justificantes_datatable.rb" "drivers_datatable.rb" "./" "expedientes_datatable.rb" "mandatos_datatable.rb" "stock_vehicles_datatable.rb")
+
+ ("/home/marc/projects/clients_webs/web_llorens/app/controllers/online/" (23590 13752 552620 602000) "clientes_controller.rb" "informes_controller.rb" "../" "stock_vehicles_controller.rb" "expedientes_controller.rb" "documentos_controller.rb" "./" "justificantes_controller.rb" "avisos_controller.rb" "mandatos_controller.rb" "drivers_controller.rb" "static_pages_controller.rb")
+
+ ("/home/marc/projects/clients_webs/web_llorens/app/controllers/api/v1/" (23582 22494 152955 796000) "../" "expedientes_controller.rb" "documentos_controller.rb" "./" "drivers_controller.rb")
+
+ ("/home/marc/projects/forks/rom-sql/spec/integration/schema/" (23620 10875 797745 740000) "call_spec.rb" "inferrer/" "../" "rename_spec.rb" "inferrer_spec.rb" "./" "view_spec.rb" "qualified_spec.rb" "prefix_spec.rb")
+
+ ("/home/marc/projects/forks/rom-sql/spec/integration/" (23620 10663 684181 591000) "wrap_spec.rb" "commands/" "associations/" "../" "relation_schema_spec.rb" "gateway_spec.rb" "auto_migrations/" "combine_with_spec.rb" "migration_spec.rb" "plugins/" "./" "support/" "schema/" "setup_spec.rb" "relation/")
+
+ ("/home/marc/projects/forks/rom-sql/lib/rom/sql/spec/" (23593 49038 676764 567000) "../" "./" "support.rb")
+
+ ("/home/marc/projects/forks/rom-sql/lib/rom/" (23593 49038 678764 593000) "sql.rb" "../" "plugins/" "types/" "sql/" "./")
+
+ ("/home/marc/projects/forks/rom-sql/lib/" (23593 49038 658764 325000) "../" "./" "rom/" "rom-sql.rb")
+
+ ("/home/marc/projects/forks/rom-sql/spec/support/" (23618 53784 348784 280000) "helpers.rb" "../" "test_configuration.rb" "./" "oracle/" "env_helper.rb")
+
+ ("/home/marc/projects/forks/rom-sql/spec/shared/" (23599 5275 552026 738000) "articles.rb" "puppies.rb" "posts.rb" "users.rb" "../" "accounts.rb" "database_setup.rb" "./" "relations.rb" "notes.rb" "users_and_tasks.rb")
+
+ ("/home/marc/projects/forks/rom-sql/spec/" (23596 59377 296870 262000) "fixtures/" "spec_helper.rb" "../" "./" "support/" "unit/" "shared/" "extensions/" "integration/")
+
+ ("/home/marc/projects/forks/rom-sql/" (23618 53784 344784 301000) ".github/" "rom-sql.gemspec" "docker-compose.yml" "Guardfile" ".rubocop.yml" ".git/" ".rspec" "Gemfile" "circle.yml" ".inch.yml" ".travis.yml" "CHANGELOG.md" "tmp/" "../" "Gemfile.lock" ".gitignore" "README.md" "LICENSE.txt" ".codeclimate.yml" "Dockerfile" "Rakefile" "./" ".yardopts" "log/" "lib/" "spec/" "docker_start.sh")
+
+ ("/home/marc/projects/clients_webs/llorens/apps/" (23582 22085 442225 895000) "../" "./" "main/")
+
+ ("/home/marc/projects/clients_webs/llorens/apps/main/" (23582 22085 445225 991000) "system/" "../" "web/" "./" "lib/")
+
+ ("/home/marc/projects/forks/rom/core/lib/rom/" (23618 53517 705985 187000) "registry.rb" "commands/" "struct_compiler.rb" "enumerable_dataset.rb" "global/" "types.rb" "memory/" "associations/" "mapper_compiler.rb" "configuration.rb" "constants.rb" "mapper_registry.rb" "../" "setup.rb" "association_set.rb" "plugin.rb" "relation.rb" "struct.rb" "initializer.rb" "plugins/" "container.rb" "schema.rb" "lint/" "model_builder.rb" "processor.rb" "plugin_base.rb" "attribute.rb" "schema_plugin.rb" "command_registry.rb" "header.rb" "cache.rb" "version.rb" "command.rb" "./" "support/" "command_compiler.rb" "mapper/" "create_container.rb" "command_proxy.rb" "transformer.rb" "open_struct.rb" "configuration_dsl.rb" "auto_curry.rb" "schema/" "core.rb" "plugin_registry.rb" "memory.rb" "relation/" "transaction.rb" "configuration_dsl/" "global.rb" "pipeline.rb" "data_proxy.rb" "relation_registry.rb" "commands.rb" "array_dataset.rb" "header/" "configuration_plugin.rb" "setup/" "gateway.rb" "processor/" "mapper.rb" "environment.rb")
+
+ ("/home/marc/projects/forks/rom/core/lib/rom/relation/" (23599 34079 146258 790000) "combined.rb" "graph.rb" "class_interface.rb" "../" "wrap.rb" "composite.rb" "view_dsl.rb" "./" "materializable.rb" "name.rb" "curried.rb" "loaded.rb" "commands.rb")
+
+ ("/home/marc/.homesick/repos/castle-mr/home/projects/forks/rom/core/spec/unit/rom/schema/" (23615 30096 127940 188000) "wrap_spec.rb" "exclude_spec.rb" "canonical_spec.rb" "attribute_spec.rb" "../" "finalize_spec.rb" "rename_spec.rb" "./" "key_predicate_spec.rb" "append_spec.rb" "merge_spec.rb" "project_spec.rb" "accessing_attributes_spec.rb" "uniq_spec.rb" "prefix_spec.rb")
+
+ ("/home/marc/.homesick/repos/castle-mr/home/projects/forks/rom/core/spec/unit/rom/" (23615 30096 127940 188000) "registry_spec.rb" "commands/" "memory/" "associations/" "memoizable_spec.rb" "../" "gateway_spec.rb" "schema_spec.rb" "plugin_spec.rb" "plugins/" "configuration_spec.rb" "enumerable_dataset_spec.rb" "./" "configurable_spec.rb" "auto_curry_spec.rb" "mapper/" "mapper_compiler_spec.rb" "schema/" "attribute/" "struct_compiler_spec.rb" "mapper_spec.rb" "container_spec.rb" "relation/" "array_dataset_spec.rb" "create_container_spec.rb" "commands_spec.rb" "relation_spec.rb" "cache_spec.rb" "setup/" "processor/" "command_compiler_spec.rb" "environment_spec.rb" "association_set_spec.rb")
+
+ ("/home/marc/.homesick/repos/castle-mr/home/projects/forks/rom/core/spec/unit/rom/relation/" (23618 52107 400484 369000) "command_spec.rb" "attribute_reader_spec.rb" "foreign_key_spec.rb" "call_spec.rb" "wrap_spec.rb" "loaded_spec.rb" "wrap/" "struct_namespace_spec.rb" "combined/" "../" "combine_with_spec.rb" "schema_spec.rb" "combine_spec.rb" "lazy_spec.rb" "to_ast_spec.rb" "name_spec.rb" "output_schema_spec.rb" "./" "preload_assoc_spec.rb" "map_with_spec.rb" "eager_load_spec.rb" "as_spec.rb" "composite_spec.rb" "new_spec.rb" "inspect_spec.rb" "map_to_spec.rb" "class_interface/" "curried_spec.rb")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
