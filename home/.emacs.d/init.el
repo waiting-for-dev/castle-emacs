@@ -68,6 +68,12 @@
 (eval-when-compile
   (require 'use-package))
 
+;; Ido in vertical mode
+(use-package ido-vertical-mode
+  :ensure t
+  :init
+  (ido-vertical-mode 1))
+
 ;; Proof general
 (use-package proof-general
 	     :ensure t
