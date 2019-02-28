@@ -162,6 +162,10 @@
   :init
   (add-hook 'haskell-mode-hook #'hindent-mode))
 
+;; Slim template language syntax highlighting
+(use-package slim-mode
+  :ensure t)
+
 ;; Coq tools
 (use-package company-coq
   :ensure t
